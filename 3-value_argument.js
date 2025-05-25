@@ -1,5 +1,13 @@
 // 3-concat.js
-const arg1 = process.argv[2];
-const arg2 = process.argv[3];
+// 3-value_argument.js
 
-console.log(`${arg1} is ${arg2}`);
+const arg = process.argv[2];
+
+if (arg === undefined) {
+  console.log("No argument");
+} else {
+  console.log(arg);
+}
+// This code checks if a command line argument is provided. 
+// If not, it prints "No argument". 
+// If an argument is provided, it prints the argument itself.
