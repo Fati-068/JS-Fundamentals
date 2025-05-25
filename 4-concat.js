@@ -1,9 +1,6 @@
-// 4-convert.js
-const arg = process.argv[2];
-const number = parseInt(arg);
+// 3-concat.js
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
 
-if (isNaN(number)) {
-  console.log("Not a number");
-} else {
-  console.log(`My number: ${number}`);
-}
+console.log(`${arg1} is ${arg2}`);
+// This code takes two command line arguments and prints them in a formatted string.
