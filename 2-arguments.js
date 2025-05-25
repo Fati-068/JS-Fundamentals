@@ -3,7 +3,7 @@ const arg = process.argv[2];
 
 if (arg === undefined) {
   console.log("No argument");
-} else if (arg[2] === undefined) {
+} else if (arg[1] === undefined) {
     console.log("Argument found");
 } else {
     console.log("Arguments found");
