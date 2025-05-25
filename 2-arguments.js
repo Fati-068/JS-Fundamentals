@@ -1,10 +1,9 @@
-const args = process.argv;
+// 2-arguments.js
+const arg = process.argv[2];
 
-if (args [2] === undefined) {
-    console.log("No argument");
-} else if (args[3] === undefined) {
-    console.log("Argument found");
+if (arg === undefined) {
+  console.log("No argument");
 } else {
-    console.log("Arguments found");
+  console.log(arg);
 }
-// This code checks the command line arguments passed to the script.
+// This code checks if a command line argument is provided. If not, it prints "No argument". If an argument is provided, it prints the argument itself.
