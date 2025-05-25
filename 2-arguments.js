@@ -1,9 +1,9 @@
 // 2-arguments.js
-const arg = process.argv[2];
+const arg = process.argv;
 
-if (arg === undefined) {
+if (arg[2] === undefined) {
   console.log("No argument");
-} else if (arg[1] === undefined) {
+} else if (arg[3] === undefined) {
     console.log("Argument found");
 } else {
     console.log("Arguments found");
